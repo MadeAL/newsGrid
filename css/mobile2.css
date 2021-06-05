@@ -1,0 +1,23 @@
+#showcase .showcase-container,
+#home-articles .articles-container,
+#main-footer .footer-container {
+  grid-template-columns: 1fr;
+}
+
+#main-footer .footer-container > *:last-child {
+  grid-column: 1 / span 1;
+}
+
+.page-container {
+  grid-template-columns: 1fr;
+}
+
+#main-footer .footer-container > * {
+  border-bottom: rgb(212, 80, 80) dotted 1px;
+  padding-bottom: 1rem;
+}
+
+.last_footer {
+  border: var(--dark-color) dotted 1px !important;
+  padding-bottom: none;
+}
